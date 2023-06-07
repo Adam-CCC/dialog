@@ -1,0 +1,236 @@
+{
+  "className": "scada.mnemo.dialog.MConfirmation",
+  "packageName": "scada.mnemo.dialog",
+  "name": "MConfirmation",
+  "superClass": null,
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 51,
+        "column": 3,
+        "index": 1455
+      }
+    }
+  },
+  "type": "mixin",
+  "destruct": {
+    "location": {
+      "start": {
+        "line": 2,
+        "column": 4,
+        "index": 58
+      },
+      "end": {
+        "line": 7,
+        "column": 5,
+        "index": 197
+      }
+    }
+  },
+  "properties": {
+    "confirmation": {
+      "location": {
+        "start": {
+          "line": 10,
+          "column": 8,
+          "index": 226
+        },
+        "end": {
+          "line": 14,
+          "column": 9,
+          "index": 346
+        }
+      },
+      "name": "confirmation",
+      "propertyType": "new",
+      "apply": "_applyConfirmation",
+      "init": false,
+      "check": "Boolean",
+      "defaultValue": false
+    }
+  },
+  "members": {
+    "openConfirmation": {
+      "location": {
+        "start": {
+          "line": 18,
+          "column": 8,
+          "index": 378
+        },
+        "end": {
+          "line": 23,
+          "column": 9,
+          "index": 584
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "_applyConfirmation": {
+      "location": {
+        "start": {
+          "line": 25,
+          "column": 8,
+          "index": 595
+        },
+        "end": {
+          "line": 29,
+          "column": 9,
+          "index": 750
+        }
+      },
+      "type": "function",
+      "access": "protected",
+      "applyFor": [
+        "confirmation"
+      ]
+    },
+    "__createDialog": {
+      "location": {
+        "start": {
+          "line": 31,
+          "column": 8,
+          "index": 761
+        },
+        "end": {
+          "line": 41,
+          "column": 9,
+          "index": 1245
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "initConfirmationByJson": {
+      "location": {
+        "start": {
+          "line": 43,
+          "column": 8,
+          "index": 1256
+        },
+        "end": {
+          "line": 45,
+          "column": 9,
+          "index": 1373
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "_onConfirmButtonPressed": {
+      "location": {
+        "start": {
+          "line": 47,
+          "column": 8,
+          "index": 1384
+        },
+        "end": {
+          "line": 49,
+          "column": 9,
+          "index": 1445
+        }
+      },
+      "type": "function",
+      "access": "protected"
+    },
+    "getConfirmation": {
+      "type": "function",
+      "name": "getConfirmation",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>confirmation</code>.\n\nFor further details take a look at the property definition: {@link #confirmation}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for confirmation"
+          }
+        ]
+      }
+    },
+    "isConfirmation": {
+      "type": "function",
+      "name": "isConfirmation",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "is",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>confirmation</code>.\n\nFor further details take a look at the property definition: {@link #confirmation}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for confirmation"
+          }
+        ]
+      }
+    },
+    "setConfirmation": {
+      "type": "function",
+      "name": "setConfirmation",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>confirmation</code>.\n\nFor further details take a look at the property definition: {@link #confirmation}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "Boolean",
+            "paramName": "value",
+            "desc": "Value for confirmation"
+          }
+        ]
+      }
+    },
+    "resetConfirmation": {
+      "type": "function",
+      "name": "resetConfirmation",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>confirmation</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #confirmation}."
+          }
+        ]
+      }
+    }
+  },
+  "descendants": []
+}

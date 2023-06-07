@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "meta",
+    "color",
+    "scada",
+    "widget",
+    "theme",
+    "Color",
+    "decoration",
+    "Decoration",
+    "font",
+    "Font",
+    "icon",
+    "Tango",
+    "appearance",
+    "Appearance"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/widget/source/class/scada/widget/theme/Theme.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 undefined\n\n   License: MIT license\n\n   Authors: undefined\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.widget.theme.Theme\",\n{\n  meta :\n  {\n    color : scada.widget.theme.Color,\n    decoration : scada.widget.theme.Decoration,\n    font : scada.widget.theme.Font,\n    icon : qx.theme.icon.Tango,\n    appearance : scada.widget.theme.Appearance\n  }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,0BAA0B,EAC1C;IACEC,IAAI,EACJ;MACEC,KAAK,EAAGC,KAAK,CAACC,MAAM,CAACC,KAAK,CAACC,KAAK;MAChCC,UAAU,EAAGJ,KAAK,CAACC,MAAM,CAACC,KAAK,CAACG,UAAU;MAC1CC,IAAI,EAAGN,KAAK,CAACC,MAAM,CAACC,KAAK,CAACK,IAAI;MAC9BC,IAAI,EAAGhB,EAAE,CAACU,KAAK,CAACM,IAAI,CAACC,KAAK;MAC1BC,UAAU,EAAGV,KAAK,CAACC,MAAM,CAACC,KAAK,CAACS;IAClC;EACF,CAAC,CAAC;EApBFX,KAAK,CAACC,MAAM,CAACC,KAAK,CAACN,KAAK,CAACD,aAAa,GAAGA,aAAa;AAAC"
+}

@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Mixin",
+    "define",
+    "properties",
+    "data",
+    "init",
+    "nullable",
+    "event",
+    "outData",
+    "outputKey",
+    "check",
+    "scada",
+    "mnemo",
+    "dialog",
+    "MData"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/MData.js"
+  ],
+  "sourcesContent": [
+    "qx.Mixin.define(\"scada.mnemo.dialog.MData\", {\n    properties: {\n        data: {\n            init: \"?\",\n            nullable: true,\n            event: \"changeData\"\n        },\n\n        outData: {\n            init: {},\n            event: \"changeOutData\"\n        },\n\n        outputKey: {\n            init: null,\n            nullable: true,\n            check: \"String\"\n        }\n    }\n});"
+  ],
+  "mappings": ";;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,0BAA0B,EAAE;IACxCC,UAAU,EAAE;MACRC,IAAI,EAAE;QACFC,IAAI,EAAE,GAAG;QACTC,QAAQ,EAAE,IAAI;QACdC,KAAK,EAAE;MACX,CAAC;MAEDC,OAAO,EAAE;QACLH,IAAI,EAAE,CAAC,CAAC;QACRE,KAAK,EAAE;MACX,CAAC;MAEDE,SAAS,EAAE;QACPJ,IAAI,EAAE,IAAI;QACVC,QAAQ,EAAE,IAAI;QACdI,KAAK,EAAE;MACX;IACJ;EACJ,CAAC,CAAC;EAnBFC,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,KAAK,CAACd,aAAa,GAAGA,aAAa;AAAC"
+}

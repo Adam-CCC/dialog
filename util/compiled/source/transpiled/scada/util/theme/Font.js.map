@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Font",
+    "fonts",
+    "scada",
+    "util"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/util/source/class/scada/util/theme/Font.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 Ugpa Inc\n\n   License: MIT license\n\n   Authors: zolotovdy zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.util.theme.Font\",\n{\n  extend : qx.theme.indigo.Font,\n\n  fonts :\n  {\n  }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,uBAAuB,EACvC;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,IAAI;IAE7BC,KAAK,EACL,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,IAAI,CAACL,KAAK,CAACE,IAAI,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

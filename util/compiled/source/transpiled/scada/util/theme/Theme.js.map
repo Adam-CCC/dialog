@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "meta",
+    "color",
+    "scada",
+    "util",
+    "theme",
+    "Color",
+    "decoration",
+    "Decoration",
+    "font",
+    "Font",
+    "icon",
+    "Tango",
+    "appearance",
+    "Appearance"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/util/source/class/scada/util/theme/Theme.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 Ugpa Inc\n\n   License: MIT license\n\n   Authors: zolotovdy zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.util.theme.Theme\",\n{\n  meta :\n  {\n    color : scada.util.theme.Color,\n    decoration : scada.util.theme.Decoration,\n    font : scada.util.theme.Font,\n    icon : qx.theme.icon.Tango,\n    appearance : scada.util.theme.Appearance\n  }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,wBAAwB,EACxC;IACEC,IAAI,EACJ;MACEC,KAAK,EAAGC,KAAK,CAACC,IAAI,CAACC,KAAK,CAACC,KAAK;MAC9BC,UAAU,EAAGJ,KAAK,CAACC,IAAI,CAACC,KAAK,CAACG,UAAU;MACxCC,IAAI,EAAGN,KAAK,CAACC,IAAI,CAACC,KAAK,CAACK,IAAI;MAC5BC,IAAI,EAAGhB,EAAE,CAACU,KAAK,CAACM,IAAI,CAACC,KAAK;MAC1BC,UAAU,EAAGV,KAAK,CAACC,IAAI,CAACC,KAAK,CAACS;IAChC;EACF,CAAC,CAAC;EApBFX,KAAK,CAACC,IAAI,CAACC,KAAK,CAACN,KAAK,CAACD,aAAa,GAAGA,aAAa;AAAC"
+}

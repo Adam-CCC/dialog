@@ -1,0 +1,496 @@
+{
+  "className": "scada.mnemo.dialog.MProtection",
+  "packageName": "scada.mnemo.dialog",
+  "name": "MProtection",
+  "superClass": null,
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 119,
+        "column": 3,
+        "index": 3605
+      }
+    }
+  },
+  "type": "mixin",
+  "construct": {
+    "location": {
+      "start": {
+        "line": 2,
+        "column": 4,
+        "index": 56
+      },
+      "end": {
+        "line": 5,
+        "column": 5,
+        "index": 240
+      }
+    }
+  },
+  "destruct": {
+    "location": {
+      "start": {
+        "line": 7,
+        "column": 4,
+        "index": 247
+      },
+      "end": {
+        "line": 10,
+        "column": 5,
+        "index": 358
+      }
+    }
+  },
+  "properties": {
+    "protectionKey": {
+      "location": {
+        "start": {
+          "line": 13,
+          "column": 8,
+          "index": 387
+        },
+        "end": {
+          "line": 17,
+          "column": 9,
+          "index": 493
+        }
+      },
+      "name": "protectionKey",
+      "propertyType": "new",
+      "nullable": true,
+      "allowNull": true,
+      "check": "String"
+    },
+    "protectionMessage": {
+      "location": {
+        "start": {
+          "line": 19,
+          "column": 8,
+          "index": 504
+        },
+        "end": {
+          "line": 22,
+          "column": 9,
+          "index": 594
+        }
+      },
+      "name": "protectionMessage",
+      "propertyType": "new",
+      "check": "String"
+    },
+    "showProtectionDialog": {
+      "location": {
+        "start": {
+          "line": 24,
+          "column": 8,
+          "index": 605
+        },
+        "end": {
+          "line": 27,
+          "column": 9,
+          "index": 692
+        }
+      },
+      "name": "showProtectionDialog",
+      "propertyType": "new",
+      "init": false,
+      "check": "Boolean",
+      "defaultValue": false
+    }
+  },
+  "statics": {
+    "PROTECTION_DEFAULT_VALUE": {
+      "location": {
+        "start": {
+          "line": 31,
+          "column": 8,
+          "index": 724
+        },
+        "end": {
+          "line": 31,
+          "column": 35,
+          "index": 751
+        }
+      },
+      "type": "variable",
+      "access": "public"
+    }
+  },
+  "members": {
+    "__protectionDialog": {
+      "location": {
+        "start": {
+          "line": 35,
+          "column": 8,
+          "index": 783
+        },
+        "end": {
+          "line": 35,
+          "column": 32,
+          "index": 807
+        }
+      },
+      "type": "variable",
+      "access": "private"
+    },
+    "initProtection": {
+      "location": {
+        "start": {
+          "line": 37,
+          "column": 8,
+          "index": 818
+        },
+        "end": {
+          "line": 61,
+          "column": 9,
+          "index": 1694
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "__parseValuesOn": {
+      "location": {
+        "start": {
+          "line": 63,
+          "column": 8,
+          "index": 1705
+        },
+        "end": {
+          "line": 71,
+          "column": 9,
+          "index": 2033
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "checkProtected": {
+      "location": {
+        "start": {
+          "line": 73,
+          "column": 8,
+          "index": 2044
+        },
+        "end": {
+          "line": 86,
+          "column": 9,
+          "index": 2601
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "isProtected": {
+      "location": {
+        "start": {
+          "line": 88,
+          "column": 8,
+          "index": 2612
+        },
+        "end": {
+          "line": 90,
+          "column": 9,
+          "index": 2702
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "__showProtectionDialog": {
+      "location": {
+        "start": {
+          "line": 92,
+          "column": 8,
+          "index": 2713
+        },
+        "end": {
+          "line": 97,
+          "column": 9,
+          "index": 2937
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "_createMsgWindow": {
+      "location": {
+        "start": {
+          "line": 99,
+          "column": 8,
+          "index": 2948
+        },
+        "end": {
+          "line": 104,
+          "column": 9,
+          "index": 3162
+        }
+      },
+      "type": "function",
+      "access": "protected"
+    },
+    "__setupLayout": {
+      "location": {
+        "start": {
+          "line": 106,
+          "column": 8,
+          "index": 3173
+        },
+        "end": {
+          "line": 111,
+          "column": 9,
+          "index": 3364
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "__createAtom": {
+      "location": {
+        "start": {
+          "line": 113,
+          "column": 8,
+          "index": 3375
+        },
+        "end": {
+          "line": 117,
+          "column": 9,
+          "index": 3595
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "getProtectionKey": {
+      "type": "function",
+      "name": "getProtectionKey",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>protectionKey</code>.\n\nFor further details take a look at the property definition: {@link #protectionKey}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "String",
+            "desc": "Returns the value for protectionKey"
+          }
+        ]
+      }
+    },
+    "setProtectionKey": {
+      "type": "function",
+      "name": "setProtectionKey",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>protectionKey</code>.\n\nFor further details take a look at the property definition: {@link #protectionKey}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "String",
+            "paramName": "value",
+            "desc": "Value for protectionKey"
+          }
+        ]
+      }
+    },
+    "resetProtectionKey": {
+      "type": "function",
+      "name": "resetProtectionKey",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>protectionKey</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #protectionKey}."
+          }
+        ]
+      }
+    },
+    "getProtectionMessage": {
+      "type": "function",
+      "name": "getProtectionMessage",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>protectionMessage</code>.\n\nFor further details take a look at the property definition: {@link #protectionMessage}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "String",
+            "desc": "Returns the value for protectionMessage"
+          }
+        ]
+      }
+    },
+    "setProtectionMessage": {
+      "type": "function",
+      "name": "setProtectionMessage",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>protectionMessage</code>.\n\nFor further details take a look at the property definition: {@link #protectionMessage}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "String",
+            "paramName": "value",
+            "desc": "Value for protectionMessage"
+          }
+        ]
+      }
+    },
+    "resetProtectionMessage": {
+      "type": "function",
+      "name": "resetProtectionMessage",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>protectionMessage</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #protectionMessage}."
+          }
+        ]
+      }
+    },
+    "getShowProtectionDialog": {
+      "type": "function",
+      "name": "getShowProtectionDialog",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>showProtectionDialog</code>.\n\nFor further details take a look at the property definition: {@link #showProtectionDialog}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for showProtectionDialog"
+          }
+        ]
+      }
+    },
+    "isShowProtectionDialog": {
+      "type": "function",
+      "name": "isShowProtectionDialog",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "is",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>showProtectionDialog</code>.\n\nFor further details take a look at the property definition: {@link #showProtectionDialog}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for showProtectionDialog"
+          }
+        ]
+      }
+    },
+    "setShowProtectionDialog": {
+      "type": "function",
+      "name": "setShowProtectionDialog",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>showProtectionDialog</code>.\n\nFor further details take a look at the property definition: {@link #showProtectionDialog}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "Boolean",
+            "paramName": "value",
+            "desc": "Value for showProtectionDialog"
+          }
+        ]
+      }
+    },
+    "resetShowProtectionDialog": {
+      "type": "function",
+      "name": "resetShowProtectionDialog",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>showProtectionDialog</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #showProtectionDialog}."
+          }
+        ]
+      }
+    }
+  },
+  "descendants": []
+}

@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Decoration",
+    "decorations",
+    "scada",
+    "mnemo",
+    "dialog"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/theme/Decoration.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2023 ugpa\n\n   License: Private\n\n   Authors: Dmitrii Zolotov (goldim) zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.mnemo.dialog.theme.Decoration\",\n{\n  extend : qx.theme.indigo.Decoration,\n\n  decorations :\n  {\n  }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,qCAAqC,EACrD;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,UAAU;IAEnCC,WAAW,EACX,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,KAAK,CAACC,MAAM,CAACN,KAAK,CAACE,UAAU,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

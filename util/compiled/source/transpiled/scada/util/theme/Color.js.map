@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Color",
+    "colors",
+    "scada",
+    "util"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/util/source/class/scada/util/theme/Color.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 Ugpa Inc\n\n   License: MIT license\n\n   Authors: zolotovdy zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.util.theme.Color\",\n{\n  extend : qx.theme.indigo.Color,\n\n  colors :\n  {\n  }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,wBAAwB,EACxC;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,KAAK;IAE9BC,MAAM,EACN,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,IAAI,CAACL,KAAK,CAACE,KAAK,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

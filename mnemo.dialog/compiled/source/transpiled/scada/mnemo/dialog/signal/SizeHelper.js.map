@@ -1,0 +1,45 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "type",
+    "statics",
+    "SCALE_RATIO",
+    "DIMENSION_TABLE",
+    "getContainerWidth",
+    "applyRatio",
+    "bom",
+    "Document",
+    "getWidth",
+    "getContainerHeight",
+    "getHeight",
+    "size",
+    "Math",
+    "ceil",
+    "getElementWidth",
+    "elementCount",
+    "trunc",
+    "getColumnCount",
+    "getElementHeight",
+    "getRowCount",
+    "tableCount",
+    "getDimensions",
+    "scada",
+    "mnemo",
+    "dialog",
+    "signal",
+    "SizeHelper"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/signal/SizeHelper.js"
+  ],
+  "sourcesContent": [
+    "qx.Class.define(\"scada.mnemo.dialog.signal.SizeHelper\", {\n    type: \"static\",\n\n    statics: {\n        SCALE_RATIO: 0.8,\n\n        DIMENSION_TABLE: [\n            [1, 1], [1, 1], [2, 1],\n            [2, 2], [2, 2], [3, 2],\n            [3, 2], [3, 3], [3, 3],\n            [3, 3], [4, 3]\n        ],\n\n        getContainerWidth(){\n            return this.applyRatio(qx.bom.Document.getWidth());\n        },\n\n        getContainerHeight(){\n            return this.applyRatio(qx.bom.Document.getHeight());\n        },\n\n        applyRatio(size){\n            return Math.ceil(size  * this.SCALE_RATIO);\n        },\n\n        getElementWidth(elementCount){\n            return Math.trunc(this.getContainerWidth() / this.getColumnCount(elementCount)) - 15;\n        },\n\n        getElementHeight(elementCount){\n            return Math.trunc(this.getContainerHeight() / this.getRowCount(elementCount));\n        },\n\n        getColumnCount(tableCount){\n            return this.getDimensions(tableCount)[0];\n        },\n\n        getRowCount(elementCount){\n            return this.getDimensions(elementCount)[1];\n        },\n\n        getDimensions(elementCount){\n            return this.DIMENSION_TABLE[elementCount];\n        }\n    }\n});"
+  ],
+  "mappings": ";;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,sCAAsC,EAAE;IACpDC,IAAI,EAAE,QAAQ;IAEdC,OAAO,EAAE;MACLC,WAAW,EAAE,GAAG;MAEhBC,eAAe,EAAE,CACb,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EACtB,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EACtB,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EACtB,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,CACjB;MAEDC,iBAAiB,+BAAE;QACf,OAAO,IAAI,CAACC,UAAU,CAACX,EAAE,CAACY,GAAG,CAACC,QAAQ,CAACC,QAAQ,EAAE,CAAC;MACtD,CAAC;MAEDC,kBAAkB,gCAAE;QAChB,OAAO,IAAI,CAACJ,UAAU,CAACX,EAAE,CAACY,GAAG,CAACC,QAAQ,CAACG,SAAS,EAAE,CAAC;MACvD,CAAC;MAEDL,UAAU,sBAACM,IAAI,EAAC;QACZ,OAAOC,IAAI,CAACC,IAAI,CAACF,IAAI,GAAI,IAAI,CAACT,WAAW,CAAC;MAC9C,CAAC;MAEDY,eAAe,2BAACC,YAAY,EAAC;QACzB,OAAOH,IAAI,CAACI,KAAK,CAAC,IAAI,CAACZ,iBAAiB,EAAE,GAAG,IAAI,CAACa,cAAc,CAACF,YAAY,CAAC,CAAC,GAAG,EAAE;MACxF,CAAC;MAEDG,gBAAgB,4BAACH,YAAY,EAAC;QAC1B,OAAOH,IAAI,CAACI,KAAK,CAAC,IAAI,CAACP,kBAAkB,EAAE,GAAG,IAAI,CAACU,WAAW,CAACJ,YAAY,CAAC,CAAC;MACjF,CAAC;MAEDE,cAAc,0BAACG,UAAU,EAAC;QACtB,OAAO,IAAI,CAACC,aAAa,CAACD,UAAU,CAAC,CAAC,CAAC,CAAC;MAC5C,CAAC;MAEDD,WAAW,uBAACJ,YAAY,EAAC;QACrB,OAAO,IAAI,CAACM,aAAa,CAACN,YAAY,CAAC,CAAC,CAAC,CAAC;MAC9C,CAAC;MAEDM,aAAa,yBAACN,YAAY,EAAC;QACvB,OAAO,IAAI,CAACZ,eAAe,CAACY,YAAY,CAAC;MAC7C;IACJ;EACJ,CAAC,CAAC;EA7CFO,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,MAAM,CAACC,UAAU,CAAC7B,aAAa,GAAGA,aAAa;AAAC"
+}

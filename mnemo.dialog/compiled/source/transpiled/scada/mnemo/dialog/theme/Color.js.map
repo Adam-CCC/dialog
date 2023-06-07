@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Color",
+    "colors",
+    "scada",
+    "mnemo",
+    "dialog"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/theme/Color.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2023 ugpa\n\n   License: Private\n\n   Authors: Dmitrii Zolotov (goldim) zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.mnemo.dialog.theme.Color\",\n{\n  extend : qx.theme.indigo.Color,\n\n  colors :\n  {\n  }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,gCAAgC,EAChD;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,KAAK;IAE9BC,MAAM,EACN,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,KAAK,CAACC,MAAM,CAACN,KAAK,CAACE,KAAK,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

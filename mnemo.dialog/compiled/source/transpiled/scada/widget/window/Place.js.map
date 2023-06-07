@@ -1,0 +1,29 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "extend",
+    "ui",
+    "window",
+    "Window",
+    "include",
+    "core",
+    "MPlacement",
+    "construct",
+    "scada",
+    "widget",
+    "Place"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/widget/source/class/scada/widget/window/Place.js"
+  ],
+  "sourcesContent": [
+    "qx.Class.define(\"scada.widget.window.Place\", {\n    extend : qx.ui.window.Window,\n    include: [qx.ui.core.MPlacement],\n\n    construct: function(){\n        this.base(arguments);\n    }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,2BAA2B,EAAE;IACzCC,MAAM,EAAGN,EAAE,CAACO,EAAE,CAACC,MAAM,CAACC,MAAM;IAC5BC,OAAO,EAAE,CAACV,EAAE,CAACO,EAAE,CAACI,IAAI,CAACC,UAAU,CAAC;IAEhCC,SAAS,EAAE,qBAAU;MACjB;IACJ;EACJ,CAAC,CAAC;EAPFC,KAAK,CAACC,MAAM,CAACP,MAAM,CAACQ,KAAK,CAACb,aAAa,GAAGA,aAAa;AAAC"
+}

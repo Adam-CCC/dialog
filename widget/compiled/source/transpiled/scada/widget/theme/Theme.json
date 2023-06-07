@@ -1,0 +1,47 @@
+{
+  "className": "scada.widget.theme.Theme",
+  "packageName": "scada.widget.theme",
+  "name": "Theme",
+  "superClass": null,
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 11,
+        "column": 0,
+        "index": 232
+      },
+      "end": {
+        "line": 21,
+        "column": 3,
+        "index": 499
+      }
+    },
+    "jsdoc": {}
+  },
+  "type": "theme",
+  "themeMeta": {
+    "location": {
+      "start": {
+        "line": 13,
+        "column": 2,
+        "index": 280
+      },
+      "end": {
+        "line": 20,
+        "column": 3,
+        "index": 495
+      }
+    },
+    "themeMetaMap": {
+      "color": "scada.widget.theme.Color",
+      "decoration": "scada.widget.theme.Decoration",
+      "font": "scada.widget.theme.Font",
+      "icon": "qx.theme.icon.Tango",
+      "appearance": "scada.widget.theme.Appearance"
+    }
+  },
+  "descendants": []
+}

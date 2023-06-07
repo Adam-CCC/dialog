@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Decoration",
+    "decorations",
+    "scada",
+    "util"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/util/source/class/scada/util/theme/Decoration.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 Ugpa Inc\n\n   License: MIT license\n\n   Authors: zolotovdy zolotovdy@ugpa.ru\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.util.theme.Decoration\",\n{\n  extend : qx.theme.indigo.Decoration,\n\n  decorations :\n  {\n  }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,6BAA6B,EAC7C;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,UAAU;IAEnCC,WAAW,EACX,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,IAAI,CAACL,KAAK,CAACE,UAAU,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

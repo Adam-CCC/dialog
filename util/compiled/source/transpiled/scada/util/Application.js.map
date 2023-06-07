@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "extend",
+    "application",
+    "Standalone",
+    "members",
+    "main",
+    "log",
+    "appender",
+    "Native",
+    "Console",
+    "button1",
+    "ui",
+    "form",
+    "Button",
+    "doc",
+    "getRoot",
+    "add",
+    "left",
+    "top",
+    "addListener",
+    "alert",
+    "scada",
+    "util",
+    "Application"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/util/source/class/scada/util/Application.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 Ugpa Inc\n\n   License: MIT license\n\n   Authors: zolotovdy zolotovdy@ugpa.ru\n\n************************************************************************ */\n\n/**\n * This is the main application class of \"USCADA util\"\n *\n * @asset(scada/util/*)\n */\nqx.Class.define(\"scada.util.Application\",\n{\n  extend : qx.application.Standalone,\n\n\n\n  /*\n  *****************************************************************************\n     MEMBERS\n  *****************************************************************************\n  */\n\n  members :\n  {\n    /**\n     * This method contains the initial application code and gets called \n     * during startup of the application\n     * \n     * @lint ignoreDeprecated(alert)\n     */\n    main : function() {\n      // Call super class\n      this.base(arguments);\n\n      // Enable logging in debug variant\n      if (qx.core.Environment.get(\"qx.debug\")) {\n        // support native logging capabilities, e.g. Firebug for Firefox\n        qx.log.appender.Native;\n        // support additional cross-browser console. Press F7 to toggle visibility\n        qx.log.appender.Console;\n      }\n\n      /*\n      -------------------------------------------------------------------------\n        Below is your actual application code...\n      -------------------------------------------------------------------------\n      */\n\n      // Create a button\n      var button1 = new qx.ui.form.Button(\"Click me\", \"scada/util/test.png\");\n\n      // Document is the application root\n      var doc = this.getRoot();\n\n      // Add button to document at fixed coordinates\n      doc.add(button1, {left: 100, top: 50});\n\n      // Add an event listener\n      button1.addListener(\"execute\", function() {\n        /* eslint no-alert: \"off\" */\n        alert(\"Hello World!\");\n      });\n    }\n  }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEA;AACA;AACA;AACA;AACA;EACAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,wBAAwB,EACxC;IACEC,MAAM,EAAGN,EAAE,CAACO,WAAW,CAACC,UAAU;IAIlC;AACF;AACA;AACA;AACA;;IAEEC,OAAO,EACP;MACE;AACJ;AACA;AACA;AACA;AACA;MACIC,IAAI,EAAG,gBAAW;QAChB;QACA;;QAEA;QACyC;UACvC;UACAV,EAAE,CAACW,GAAG,CAACC,QAAQ,CAACC,MAAM;UACtB;UACAb,EAAE,CAACW,GAAG,CAACC,QAAQ,CAACE,OAAO;QACzB;;QAEA;AACN;AACA;AACA;AACA;;QAEM;QACA,IAAIC,OAAO,GAAG,IAAIf,EAAE,CAACgB,EAAE,CAACC,IAAI,CAACC,MAAM,CAAC,UAAU,EAAE,qBAAqB,CAAC;;QAEtE;QACA,IAAIC,GAAG,GAAG,IAAI,CAACC,OAAO,EAAE;;QAExB;QACAD,GAAG,CAACE,GAAG,CAACN,OAAO,EAAE;UAACO,IAAI,EAAE,GAAG;UAAEC,GAAG,EAAE;QAAE,CAAC,CAAC;;QAEtC;QACAR,OAAO,CAACS,WAAW,CAAC,SAAS,EAAE,YAAW;UACxC;UACAC,KAAK,CAAC,cAAc,CAAC;QACvB,CAAC,CAAC;MACJ;IACF;EACF,CAAC,CAAC;EArEFC,KAAK,CAACC,IAAI,CAACC,WAAW,CAACzB,aAAa,GAAGA,aAAa;AAAC"
+}

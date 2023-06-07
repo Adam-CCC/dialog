@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Theme",
+    "define",
+    "extend",
+    "theme",
+    "indigo",
+    "Color",
+    "colors",
+    "scada",
+    "widget"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/widget/source/class/scada/widget/theme/Color.js"
+  ],
+  "sourcesContent": [
+    "/* ************************************************************************\n\n   Copyright: 2020 undefined\n\n   License: MIT license\n\n   Authors: undefined\n\n************************************************************************ */\n\nqx.Theme.define(\"scada.widget.theme.Color\",\n{\n  extend : qx.theme.indigo.Color,\n\n  colors :\n  {\n  }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhD;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;;EAEAH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,0BAA0B,EAC1C;IACEC,MAAM,EAAGN,EAAE,CAACO,KAAK,CAACC,MAAM,CAACC,KAAK;IAE9BC,MAAM,EACN,CACA;EACF,CAAC,CAAC;EAjBFC,KAAK,CAACC,MAAM,CAACL,KAAK,CAACE,KAAK,CAACN,aAAa,GAAGA,aAAa;AAAC"
+}

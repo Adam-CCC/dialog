@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "extend",
+    "ui",
+    "container",
+    "Composite",
+    "construct",
+    "label",
+    "__setupLayout",
+    "__createAndAddLabel",
+    "destruct",
+    "__table",
+    "dispose",
+    "members",
+    "getTable",
+    "layout",
+    "VBox",
+    "setAlignX",
+    "setLayout",
+    "name",
+    "basic",
+    "Label",
+    "add",
+    "__createAndAddTable",
+    "signals",
+    "width",
+    "height",
+    "table",
+    "scada",
+    "mnemo",
+    "dialog",
+    "signal",
+    "Table",
+    "addSignals",
+    "SignalGroup"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/signal/SignalGroup.js"
+  ],
+  "sourcesContent": [
+    "qx.Class.define(\"scada.mnemo.dialog.signal.SignalGroup\", {\n    extend: qx.ui.container.Composite,\n\n    construct(label = \"Сигналы\"){\n        this.base(arguments);\n        this.__setupLayout();\n        this.__createAndAddLabel(label);\n    },\n\n    destruct() {\n        if (this.__table){\n            this.__table.dispose();\n            this.__table = null;\n        }\n    },\n\n    members: {\n        getTable(){\n            return this.__table;\n        },\n\n        __setupLayout(){\n            const layout = new qx.ui.layout.VBox();\n            layout.setAlignX(\"center\");\n            this.setLayout(layout);\n        },\n\n        __createAndAddLabel(name){\n            const label = new qx.ui.basic.Label(name);\n            this.add(label);\n        },\n\n        __createAndAddTable(signals, width, height){\n            const table = new scada.mnemo.dialog.signal.Table(signals, width, height);\n            this.add(table);\n            return table;\n        },\n\n        addSignals(signals, width, height){\n            this.__table = this.__createAndAddTable(signals, width, height)\n        }\n    }\n});\n"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,uCAAuC,EAAE;IACrDC,MAAM,EAAEN,EAAE,CAACO,EAAE,CAACC,SAAS,CAACC,SAAS;IAEjCC,SAAS,uBAAmB;MAAA,IAAlBC,KAAK,uEAAG,SAAS;MACvB;MACA,IAAI,CAACC,sBAAa,EAAE;MACpB,IAAI,CAACC,4BAAmB,CAACF,KAAK,CAAC;IACnC,CAAC;IAEDG,QAAQ,sBAAG;MACP,IAAI,IAAI,CAACC,gBAAO,EAAC;QACb,IAAI,CAACA,gBAAO,CAACC,OAAO,EAAE;QACtB,IAAI,CAACD,gBAAO,GAAG,IAAI;MACvB;IACJ,CAAC;IAEDE,OAAO,EAAE;MACLC,QAAQ,sBAAE;QACN,OAAO,IAAI,CAACH,gBAAO;MACvB,CAAC;MAEDH,sBAAa,oCAAE;QACX,IAAMO,MAAM,GAAG,IAAInB,EAAE,CAACO,EAAE,CAACY,MAAM,CAACC,IAAI,EAAE;QACtCD,MAAM,CAACE,SAAS,CAAC,QAAQ,CAAC;QAC1B,IAAI,CAACC,SAAS,CAACH,MAAM,CAAC;MAC1B,CAAC;MAEDN,4BAAmB,wCAACU,IAAI,EAAC;QACrB,IAAMZ,KAAK,GAAG,IAAIX,EAAE,CAACO,EAAE,CAACiB,KAAK,CAACC,KAAK,CAACF,IAAI,CAAC;QACzC,IAAI,CAACG,GAAG,CAACf,KAAK,CAAC;MACnB,CAAC;MAEDgB,4BAAmB,wCAACC,OAAO,EAAEC,KAAK,EAAEC,MAAM,EAAC;QACvC,IAAMC,KAAK,GAAG,IAAIC,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,MAAM,CAACC,KAAK,CAACR,OAAO,EAAEC,KAAK,EAAEC,MAAM,CAAC;QACzE,IAAI,CAACJ,GAAG,CAACK,KAAK,CAAC;QACf,OAAOA,KAAK;MAChB,CAAC;MAEDM,UAAU,sBAACT,OAAO,EAAEC,KAAK,EAAEC,MAAM,EAAC;QAC9B,IAAI,CAACf,gBAAO,GAAG,IAAI,CAACY,4BAAmB,CAACC,OAAO,EAAEC,KAAK,EAAEC,MAAM,CAAC;MACnE;IACJ;EACJ,CAAC,CAAC;EA1CFE,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,MAAM,CAACG,WAAW,CAACnC,aAAa,GAAGA,aAAa;AAAC"
+}

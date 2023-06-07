@@ -1,0 +1,190 @@
+{
+  "className": "scada.mnemo.dialog.signal.SizeHelper",
+  "packageName": "scada.mnemo.dialog.signal",
+  "name": "SizeHelper",
+  "superClass": null,
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 46,
+        "column": 3,
+        "index": 1209
+      }
+    }
+  },
+  "type": "class",
+  "isAbstract": false,
+  "isStatic": true,
+  "isSingleton": false,
+  "statics": {
+    "SCALE_RATIO": {
+      "location": {
+        "start": {
+          "line": 5,
+          "column": 8,
+          "index": 102
+        },
+        "end": {
+          "line": 5,
+          "column": 24,
+          "index": 118
+        }
+      },
+      "type": "variable",
+      "access": "public"
+    },
+    "DIMENSION_TABLE": {
+      "location": {
+        "start": {
+          "line": 7,
+          "column": 8,
+          "index": 129
+        },
+        "end": {
+          "line": 12,
+          "column": 9,
+          "index": 292
+        }
+      },
+      "type": "variable",
+      "access": "public"
+    },
+    "getContainerWidth": {
+      "location": {
+        "start": {
+          "line": 14,
+          "column": 8,
+          "index": 303
+        },
+        "end": {
+          "line": 16,
+          "column": 9,
+          "index": 397
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getContainerHeight": {
+      "location": {
+        "start": {
+          "line": 18,
+          "column": 8,
+          "index": 408
+        },
+        "end": {
+          "line": 20,
+          "column": 9,
+          "index": 504
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "applyRatio": {
+      "location": {
+        "start": {
+          "line": 22,
+          "column": 8,
+          "index": 515
+        },
+        "end": {
+          "line": 24,
+          "column": 9,
+          "index": 598
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getElementWidth": {
+      "location": {
+        "start": {
+          "line": 26,
+          "column": 8,
+          "index": 609
+        },
+        "end": {
+          "line": 28,
+          "column": 9,
+          "index": 747
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getElementHeight": {
+      "location": {
+        "start": {
+          "line": 30,
+          "column": 8,
+          "index": 758
+        },
+        "end": {
+          "line": 32,
+          "column": 9,
+          "index": 890
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getColumnCount": {
+      "location": {
+        "start": {
+          "line": 34,
+          "column": 8,
+          "index": 901
+        },
+        "end": {
+          "line": 36,
+          "column": 9,
+          "index": 992
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getRowCount": {
+      "location": {
+        "start": {
+          "line": 38,
+          "column": 8,
+          "index": 1003
+        },
+        "end": {
+          "line": 40,
+          "column": 9,
+          "index": 1095
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getDimensions": {
+      "location": {
+        "start": {
+          "line": 42,
+          "column": 8,
+          "index": 1106
+        },
+        "end": {
+          "line": 44,
+          "column": 9,
+          "index": 1199
+        }
+      },
+      "type": "function",
+      "access": "public"
+    }
+  },
+  "descendants": []
+}

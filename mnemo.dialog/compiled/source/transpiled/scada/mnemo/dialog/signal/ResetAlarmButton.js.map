@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Class",
+    "define",
+    "extend",
+    "ui",
+    "form",
+    "Button",
+    "construct",
+    "label",
+    "key",
+    "__key",
+    "addListener",
+    "_onBtnPressed",
+    "events",
+    "members",
+    "fireDataEvent",
+    "scada",
+    "mnemo",
+    "dialog",
+    "signal",
+    "ResetAlarmButton"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/signal/ResetAlarmButton.js"
+  ],
+  "sourcesContent": [
+    "qx.Class.define(\"scada.mnemo.dialog.signal.ResetAlarmButton\", {\n    extend: qx.ui.form.Button,\n\n    construct(label, key){\n        super(label);\n        this.__key = key;\n        this.addListener(\"execute\", this._onBtnPressed, this);\n    },\n\n    events: {\n        \"resetAlarm\": \"qx.event.type.Data\"\n    },\n\n    members: {\n        _onBtnPressed(){\n            this.fireDataEvent(\"resetAlarm\", this.__key);\n        }\n    }\n});"
+  ],
+  "mappings": ";;;;;;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,4CAA4C,EAAE;IAC1DC,MAAM,EAAEN,EAAE,CAACO,EAAE,CAACC,IAAI,CAACC,MAAM;IAEzBC,SAAS,qBAACC,KAAK,EAAEC,GAAG,EAAC;MACjB,yCAAMD,KAAK;MACX,IAAI,CAACE,cAAK,GAAGD,GAAG;MAChB,IAAI,CAACE,WAAW,CAAC,SAAS,EAAE,IAAI,CAACC,aAAa,EAAE,IAAI,CAAC;IACzD,CAAC;IAEDC,MAAM,EAAE;MACJ,YAAY,EAAE;IAClB,CAAC;IAEDC,OAAO,EAAE;MACLF,aAAa,2BAAE;QACX,IAAI,CAACG,aAAa,CAAC,YAAY,EAAE,IAAI,CAACL,cAAK,CAAC;MAChD;IACJ;EACJ,CAAC,CAAC;EAlBFM,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,MAAM,CAACC,gBAAgB,CAACpB,aAAa,GAAGA,aAAa;AAAC"
+}

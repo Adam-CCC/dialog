@@ -1,0 +1,360 @@
+{
+  "className": "scada.mnemo.dialog.MPosition",
+  "packageName": "scada.mnemo.dialog",
+  "name": "MPosition",
+  "superClass": null,
+  "interfaces": [],
+  "mixins": [],
+  "functionName": null,
+  "clazz": {
+    "location": {
+      "start": {
+        "line": 1,
+        "column": 0,
+        "index": 0
+      },
+      "end": {
+        "line": 40,
+        "column": 3,
+        "index": 839
+      }
+    }
+  },
+  "type": "mixin",
+  "properties": {
+    "center": {
+      "location": {
+        "start": {
+          "line": 3,
+          "column": 8,
+          "index": 76
+        },
+        "end": {
+          "line": 7,
+          "column": 9,
+          "index": 184
+        }
+      },
+      "name": "center",
+      "propertyType": "new",
+      "apply": "_applyCenter",
+      "init": false,
+      "check": "Boolean",
+      "defaultValue": false
+    },
+    "leftCoord": {
+      "location": {
+        "start": {
+          "line": 9,
+          "column": 8,
+          "index": 195
+        },
+        "end": {
+          "line": 12,
+          "column": 9,
+          "index": 267
+        }
+      },
+      "name": "leftCoord",
+      "propertyType": "new",
+      "init": 0,
+      "check": "Integer",
+      "defaultValue": 0
+    },
+    "topCoord": {
+      "location": {
+        "start": {
+          "line": 14,
+          "column": 8,
+          "index": 278
+        },
+        "end": {
+          "line": 17,
+          "column": 9,
+          "index": 349
+        }
+      },
+      "name": "topCoord",
+      "propertyType": "new",
+      "init": 0,
+      "check": "Integer",
+      "defaultValue": 0
+    }
+  },
+  "members": {
+    "_applyCenter": {
+      "location": {
+        "start": {
+          "line": 21,
+          "column": 8,
+          "index": 381
+        },
+        "end": {
+          "line": 25,
+          "column": 9,
+          "index": 488
+        }
+      },
+      "type": "function",
+      "access": "protected",
+      "applyFor": [
+        "center"
+      ]
+    },
+    "__placeToPoint": {
+      "location": {
+        "start": {
+          "line": 27,
+          "column": 8,
+          "index": 499
+        },
+        "end": {
+          "line": 30,
+          "column": 9,
+          "index": 651
+        }
+      },
+      "type": "function",
+      "access": "private"
+    },
+    "setupPosition": {
+      "location": {
+        "start": {
+          "line": 32,
+          "column": 8,
+          "index": 662
+        },
+        "end": {
+          "line": 38,
+          "column": 9,
+          "index": 829
+        }
+      },
+      "type": "function",
+      "access": "public"
+    },
+    "getCenter": {
+      "type": "function",
+      "name": "getCenter",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>center</code>.\n\nFor further details take a look at the property definition: {@link #center}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for center"
+          }
+        ]
+      }
+    },
+    "isCenter": {
+      "type": "function",
+      "name": "isCenter",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "is",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>center</code>.\n\nFor further details take a look at the property definition: {@link #center}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Boolean",
+            "desc": "Returns the value for center"
+          }
+        ]
+      }
+    },
+    "setCenter": {
+      "type": "function",
+      "name": "setCenter",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>center</code>.\n\nFor further details take a look at the property definition: {@link #center}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "Boolean",
+            "paramName": "value",
+            "desc": "Value for center"
+          }
+        ]
+      }
+    },
+    "resetCenter": {
+      "type": "function",
+      "name": "resetCenter",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>center</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #center}."
+          }
+        ]
+      }
+    },
+    "getLeftCoord": {
+      "type": "function",
+      "name": "getLeftCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>leftCoord</code>.\n\nFor further details take a look at the property definition: {@link #leftCoord}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Integer",
+            "desc": "Returns the value for leftCoord"
+          }
+        ]
+      }
+    },
+    "setLeftCoord": {
+      "type": "function",
+      "name": "setLeftCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>leftCoord</code>.\n\nFor further details take a look at the property definition: {@link #leftCoord}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "Integer",
+            "paramName": "value",
+            "desc": "Value for leftCoord"
+          }
+        ]
+      }
+    },
+    "resetLeftCoord": {
+      "type": "function",
+      "name": "resetLeftCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>leftCoord</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #leftCoord}."
+          }
+        ]
+      }
+    },
+    "getTopCoord": {
+      "type": "function",
+      "name": "getTopCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "get",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Gets the (computed) value of the property <code>topCoord</code>.\n\nFor further details take a look at the property definition: {@link #topCoord}."
+          }
+        ],
+        "@return": [
+          {
+            "name": "@return",
+            "type": "Integer",
+            "desc": "Returns the value for topCoord"
+          }
+        ]
+      }
+    },
+    "setTopCoord": {
+      "type": "function",
+      "name": "setTopCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "set",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Sets the user value of the property <code>topCoord</code>.\n\nFor further details take a look at the property definition: {@link #topCoord}."
+          }
+        ],
+        "@param": [
+          {
+            "name": "@param",
+            "type": "Integer",
+            "paramName": "value",
+            "desc": "Value for topCoord"
+          }
+        ]
+      }
+    },
+    "resetTopCoord": {
+      "type": "function",
+      "name": "resetTopCoord",
+      "abstract": false,
+      "mixin": false,
+      "inherited": false,
+      "access": "public",
+      "property": "reset",
+      "jsdoc": {
+        "@description": [
+          {
+            "name": "@description",
+            "body": "Resets the user value of the property <code>topCoord</code>.\n\nThe computed value falls back to the next available value e.g. appearance, init or inheritance value depending on the property configuration and value availability.\n\nFor further details take a look at the property definition: {@link #topCoord}."
+          }
+        ]
+      }
+    }
+  },
+  "descendants": []
+}

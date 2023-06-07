@@ -1,0 +1,41 @@
+{
+  "version": 3,
+  "names": [
+    "qx",
+    "Bootstrap",
+    "executePendingDefers",
+    "$$dbClassInfo",
+    "Mixin",
+    "define",
+    "properties",
+    "center",
+    "init",
+    "check",
+    "apply",
+    "leftCoord",
+    "topCoord",
+    "members",
+    "_applyCenter",
+    "value",
+    "__placeToPoint",
+    "coord",
+    "left",
+    "getLeftCoord",
+    "top",
+    "getTopCoord",
+    "placeToPoint",
+    "setupPosition",
+    "getCenter",
+    "scada",
+    "mnemo",
+    "dialog",
+    "MPosition"
+  ],
+  "sources": [
+    "C:/Users/dadovaz/Documents/Dialog/mnemo.dialog/source/class/scada/mnemo/dialog/MPosition.js"
+  ],
+  "sourcesContent": [
+    "qx.Mixin.define(\"scada.mnemo.dialog.MPosition\", {\n    properties: {\n        center: {\n            init: false,\n            check: \"Boolean\",\n            apply: \"_applyCenter\"\n        },\n\n        leftCoord: {\n            init: 0,\n            check: \"Integer\"\n        },\n\n        topCoord: {\n            init: 0,\n            check: \"Integer\"\n        }\n    },\n\n    members: {\n        _applyCenter(value){\n            if (!value){\n               this.__placeToPoint();\n            }\n        },\n\n        __placeToPoint(){\n            const coord = { left: this.getLeftCoord(), top: this.getTopCoord() + 10 };\n            this.placeToPoint(coord);\n        },\n\n        setupPosition(){\n            if (!this.getCenter()){\n                this.__placeToPoint();\n            } else {\n                this.center();\n            }\n        }\n    }\n});"
+  ],
+  "mappings": ";;;;;;;;;EAAAA,EAAE,CAACC,SAAS,CAACC,oBAAoB,CAACC,aAAa,CAAC;EAAhDH,EAAE,CAACI,KAAK,CAACC,MAAM,CAAC,8BAA8B,EAAE;IAC5CC,UAAU,EAAE;MACRC,MAAM,EAAE;QACJC,IAAI,EAAE,KAAK;QACXC,KAAK,EAAE,SAAS;QAChBC,KAAK,EAAE;MACX,CAAC;MAEDC,SAAS,EAAE;QACPH,IAAI,EAAE,CAAC;QACPC,KAAK,EAAE;MACX,CAAC;MAEDG,QAAQ,EAAE;QACNJ,IAAI,EAAE,CAAC;QACPC,KAAK,EAAE;MACX;IACJ,CAAC;IAEDI,OAAO,EAAE;MACLC,YAAY,wBAACC,KAAK,EAAC;QACf,IAAI,CAACA,KAAK,EAAC;UACR,IAAI,CAACC,uBAAc,EAAE;QACxB;MACJ,CAAC;MAEDA,uBAAc,qCAAE;QACZ,IAAMC,KAAK,GAAG;UAAEC,IAAI,EAAE,IAAI,CAACC,YAAY,EAAE;UAAEC,GAAG,EAAE,IAAI,CAACC,WAAW,EAAE,GAAG;QAAG,CAAC;QACzE,IAAI,CAACC,YAAY,CAACL,KAAK,CAAC;MAC5B,CAAC;MAEDM,aAAa,2BAAE;QACX,IAAI,CAAC,IAAI,CAACC,SAAS,EAAE,EAAC;UAClB,IAAI,CAACR,uBAAc,EAAE;QACzB,CAAC,MAAM;UACH,IAAI,CAACT,MAAM,EAAE;QACjB;MACJ;IACJ;EACJ,CAAC,CAAC;EAvCFkB,KAAK,CAACC,KAAK,CAACC,MAAM,CAACC,SAAS,CAACzB,aAAa,GAAGA,aAAa;AAAC"
+}
